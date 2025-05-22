@@ -68,3 +68,51 @@ form button {
   border-radius: 4px;
   cursor: pointer;
 }
+
+header {
+  background-color: #f05a28;
+  padding: 10px 0;
+  color: white;
+}
+
+.contenedor-header {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+header nav a {
+  margin-left: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
